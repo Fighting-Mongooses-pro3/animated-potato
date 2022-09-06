@@ -7,7 +7,7 @@ const Budget: GetStaticProps  = () => {
 
     return(
         <div>
-
+            
         </div>
     )
 }
