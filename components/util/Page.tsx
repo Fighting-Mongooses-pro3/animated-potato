@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import { Footer, Navbar } from '../../components'
 
 type PageProps = {
     currentPage: string;
@@ -30,9 +31,9 @@ export const Page = ({ currentPage, meta: { desc }, children }: PageProps) => {
                     <div className="hidden md:inline-flex w-full items-center justify-between">
                         <Navbar currentPage={currentPage} />
                     </div>
-                    <div className="inline-flex justify-between md:hidden w-full items-center">
+                    {/* <div className="inline-flex justify-between md:hidden w-full items-center">
                         <MobileMenu currentPage={currentPage} />
-                    </div>
+                    </div> */}
                 </nav>
 
                 {children}

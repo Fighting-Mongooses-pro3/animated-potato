@@ -35,6 +35,7 @@
     "@types/react-dnd": "^3.0.2",
     "@types/react-dom": "18.0.6",
     "autoprefixer": "^10.4.8",
+    "colors": "^1.4.0",
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5",
     "postcss": "^8.4.16",

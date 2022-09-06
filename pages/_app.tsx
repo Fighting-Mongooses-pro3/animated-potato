@@ -1,11 +1,12 @@
+import { UserProvider } from '@auth0/nextjs-auth0'
 import '../styles/globals.sass'
 import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-  
-  <Component {...pageProps} />
-  
+    <UserProvider>
+    <Component {...pageProps} />
+    </UserProvider>
   )
 }
 
