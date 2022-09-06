@@ -162,3 +162,7 @@ jspm_packages
 storybook-static
 *.tsbuildinfo
 next-env.d.ts
+
+.yarn
+yarn.lock
+.yarnrc.yml
